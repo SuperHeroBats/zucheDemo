@@ -1,12 +1,12 @@
 package com.zucheDemo;
-//ĞÂ½¨CarÀà
+//æ–°å»ºCarç±»
 
 public abstract class Car {
 	
 	private String type;
 	private int price;
-	//ÉèÖÃÁ½¸öË½ÓĞÊôĞÔ£¬Ö»ÔÊĞí±¾ÀàÊ¹ÓÃ
-	//Óëpublic²»Í¬µÄÊÇ£¬public¶ÔÍâ¿ª·Å
+	//è®¾ç½®ä¸¤ä¸ªç§æœ‰å±æ€§ï¼Œåªå…è®¸æœ¬ç±»ä½¿ç”¨
+	//ä¸publicä¸åŒçš„æ˜¯ï¼Œpublicå¯¹å¤–å¼€æ”¾
 	
 	public String getType() {
 		return type;
@@ -15,8 +15,8 @@ public abstract class Car {
 		this.type = type;
 	}
 	
-	//ÉèÖÃsetºÍget·½·¨µ÷ÓÃÄÚ²¿±äÁ¿
-	//privateºÍset get·½·¨ÊÇÒ»Ì×µÄ£¬ĞèÒªÉèÖÃÄÚ²¿ÊôĞÔÔÙ½øĞĞµ÷ÓÃ
+	//è®¾ç½®setå’Œgetæ–¹æ³•è°ƒç”¨å†…éƒ¨å˜é‡
+	//privateå’Œset getæ–¹æ³•æ˜¯ä¸€å¥—çš„ï¼Œéœ€è¦è®¾ç½®å†…éƒ¨å±æ€§å†è¿›è¡Œè°ƒç”¨
 	
 	public int getPrice() {
 		return price;
@@ -28,8 +28,8 @@ public abstract class Car {
 	public String toString() {
 		return type + "\t" + price;
 	}
-	//ÉèÖÃtoString£¬·µ»ØÁ½¸öÊôĞÔÖµ
-	//toStringÓÃÓÚÊä³ö×Ö·û´®
+	//è®¾ç½®toStringï¼Œè¿”å›ä¸¤ä¸ªå±æ€§å€¼
+	//toStringç”¨äºè¾“å‡ºå­—ç¬¦ä¸²
 }
 
-
+//è‡ªåŠ¨è½¬æ¢æ–‡ä»¶ç¼–ç UTF-8
