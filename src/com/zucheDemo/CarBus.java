@@ -1,5 +1,5 @@
 package com.zucheDemo;
-//ĞÂ½¨¿Í³µÀà£¬Ö»ÄÜÔØ¿Í
+//æ–°å»ºå®¢è½¦ç±»ï¼Œåªèƒ½è½½å®¢
 
 public class CarBus extends Car implements IPassenger {
 
@@ -9,7 +9,7 @@ public class CarBus extends Car implements IPassenger {
 		this.setPrice(price);
 		this.setPassCapacity(passCapacity);
 	}
-	//public CarBus¹¹Ôì·½·¨ ´«µİÊôĞÔÖµ
+	//public CarBusæ„é€ æ–¹æ³• ä¼ é€’å±æ€§å€¼
 	
 	private int passCapacity;
 	
@@ -22,13 +22,15 @@ public class CarBus extends Car implements IPassenger {
 	public void setPassCapacity(int passCapacity) {
 		this.passCapacity = passCapacity;
 	}
-	//ÉèÖÃpassCapacityÊôĞÔ£¬setºÍget·½·¨µ÷ÓÃ
+	//è®¾ç½®passCapacityå±æ€§ï¼Œsetå’Œgetæ–¹æ³•è°ƒç”¨
 	
 	@Override
 	public String toString() {
 		return super.toString() + "\t" + passCapacity + "\t---";
 	}
-	//Êä³öCarBusÖµ
-	//superÊÇ¼Ì³Ğ¸¸Àà
+	//è¾“å‡ºCarBuså€¼
+	//superæ˜¯ç»§æ‰¿çˆ¶ç±»
 	
 }
+
+//è‡ªåŠ¨è½¬æ¢æ–‡ä»¶ç¼–ç UTF-8
