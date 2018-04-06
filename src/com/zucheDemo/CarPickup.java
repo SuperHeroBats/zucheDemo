@@ -4,29 +4,29 @@ public class CarPickup extends Car implements ICargo, IPassenger {
 
 	private int passCapacity;
 	private int cargoCapacity;
-	//×¢ÊÍ¿´CarBus£¬Í¬ÑùµÀÀí
+	//æ³¨é‡Šçœ‹CarBusï¼ŒåŒæ ·é“ç†
 	
 	@Override
 	public int getPassCapacity() {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
+		// TODO è‡ªåŠ¨ç”Ÿæˆçš„æ–¹æ³•å­˜æ ¹
 		return passCapacity;
 	}
 
 	@Override
 	public void setPassCapacity(int passCapacity) {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
+		// TODO è‡ªåŠ¨ç”Ÿæˆçš„æ–¹æ³•å­˜æ ¹
 		this.passCapacity = passCapacity;
 	}
 
 	@Override
 	public int getCargoCapacity() {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
+		// TODO è‡ªåŠ¨ç”Ÿæˆçš„æ–¹æ³•å­˜æ ¹
 		return cargoCapacity;
 	}
 
 	@Override
 	public void setCargoCapacity(int cargoCapacity) {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
+		// TODO è‡ªåŠ¨ç”Ÿæˆçš„æ–¹æ³•å­˜æ ¹
 		this.cargoCapacity = cargoCapacity;
 	}
 	
@@ -43,3 +43,5 @@ public class CarPickup extends Car implements ICargo, IPassenger {
 	}
 
 }
+
+//è‡ªåŠ¨è½¬æ¢æ–‡ä»¶ç¼–ç UTF-8
