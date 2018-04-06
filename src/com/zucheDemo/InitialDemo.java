@@ -237,3 +237,5 @@ public class InitialDemo {
 		printOrder(selectCars,rentNumArray,rentDayArray); //打印最终订单
 	}
 }
+
+//自动转换文件编码UTF-8
