@@ -1,5 +1,5 @@
 package com.zucheDemo;
-//ĞÂ½¨»õ³µÀà£¬Ö»ÄÜÔØ»õ
+//æ–°å»ºè´§è½¦ç±»ï¼Œåªèƒ½è½½è´§
 
 public class CarTruck extends Car implements ICargo {
 	
@@ -8,19 +8,19 @@ public class CarTruck extends Car implements ICargo {
 		this.setPrice(price);
 		this.setCargoCapacity(cargoCapacity);
 	}
-	//×¢ÊÍ¿´CarBus£¬Í¬ÑùµÀÀí
+	//æ³¨é‡Šçœ‹CarBusï¼ŒåŒæ ·é“ç†
 	
 	private int cargoCapacity;
 	
 	@Override
 	public int getCargoCapacity() {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
+		// TODO è‡ªåŠ¨ç”Ÿæˆçš„æ–¹æ³•å­˜æ ¹
 		return cargoCapacity;
 	}
 
 	@Override
 	public void setCargoCapacity(int cargoCapacity) {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
+		// TODO è‡ªåŠ¨ç”Ÿæˆçš„æ–¹æ³•å­˜æ ¹
 		this.cargoCapacity = cargoCapacity;
 	}
 	
@@ -29,3 +29,5 @@ public class CarTruck extends Car implements ICargo {
 	}
 
 }
+
+//è‡ªåŠ¨è½¬æ¢æ–‡ä»¶ç¼–ç UTF-8
