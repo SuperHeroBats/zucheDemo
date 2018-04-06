@@ -1,8 +1,10 @@
 package com.zucheDemo;
-//新建可载客车接口
+//鏂板缓鍙浇瀹㈣溅鎺ュ彛
 
 public interface IPassenger {
 	public int getPassCapacity();
 	public void setPassCapacity(int passCapacity);
-	//接口只允许public 所以生成get和set两个成员
+	//鎺ュ彛鍙厑璁竝ublic 鎵�浠ョ敓鎴恎et鍜宻et涓や釜鎴愬憳
 }
+
+//鑷姩杞崲鏂囦欢缂栫爜UTF-8
